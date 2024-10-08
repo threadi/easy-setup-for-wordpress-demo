@@ -1,0 +1,11 @@
+{
+    "name": "threadi/easy-setup-for-wordpress-demo",
+	"version": "1.0.0",
+	"description": "Example usage of Easy Block Setup for WordPress.",
+	"type": "wordpress-plugin",
+	"require": {
+		"php": "^8.0",
+        "threadi/easy-setup-for-wordpress": "^1.0.0"
+	},
+	"minimum-stability": "dev"
+}
