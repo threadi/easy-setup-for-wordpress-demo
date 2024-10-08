@@ -15,15 +15,6 @@
  */
 
 /**
- * URL bereitstellen unter der Setup startet.
- * URL auf Dashboard verlinken.
- * Setup mit 3 Schritten:
- * 1. Name eingeben.
- * 2. Fortschritt mit künstlicher Pause.
- * 3. Abschluss
- */
-
-/**
  * Add invisible menu in admin.
  *
  * @return void
