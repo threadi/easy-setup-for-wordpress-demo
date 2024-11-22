@@ -4,7 +4,7 @@ This repository contains a WordPress demo plugin for [Easy Setup for WordPress](
 
 ## Use the demo
 
-1. Download the actual package.
+1. Download the actual release.
 2. Install it in your WordPress and activate it.
 3. You will see a demo link on your dashboard.
 
