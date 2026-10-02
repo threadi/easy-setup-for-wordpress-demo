@@ -16,9 +16,6 @@ jobs:
       - name: Build plugin
         run: |
           composer install --no-dev
-          cd vendor/threadi/easy-setup-for-wordpress/
-          npm install
-          npm run build
 
       - name: ZIP plugin
         run: |

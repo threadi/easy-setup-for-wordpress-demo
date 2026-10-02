@@ -1,0 +1,31 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../../easy-setup-for-wordpress/",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "threadi/easy-setup-for-wordpress": "*"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.4.1",
+    "automattic/vipwpcs": "^3.0",
+    "phpstan/phpstan": "^2.1",
+    "szepeviktor/phpstan-wordpress": "^2.0",
+    "phpstan/extension-installer": "^1.4",
+    "php-stubs/wp-cli-stubs": "^2.11",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "phpstan/extension-installer": true
+    }
+  }
+}
