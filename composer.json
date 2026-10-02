@@ -1,11 +1,27 @@
 {
     "name": "threadi/easy-setup-for-wordpress-demo",
-	"version": "1.0.0",
-	"description": "Example usage of Easy Block Setup for WordPress.",
+	"version": "2.0.0",
+	"description": "Example usage of Easy Setup for WordPress.",
 	"type": "wordpress-plugin",
 	"require": {
 		"php": "^8.0",
-        "threadi/easy-setup-for-wordpress": "^1.0.0"
+        "threadi/easy-setup-for-wordpress": "^1.5.0"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.4.1",
+		"automattic/vipwpcs": "^3.0",
+		"phpstan/phpstan": "^2.1",
+		"szepeviktor/phpstan-wordpress": "^2.0",
+		"phpstan/extension-installer": "^1.4",
+		"php-stubs/wp-cli-stubs": "^2.11",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.2"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"phpstan/extension-installer": true
+		}
+	}
 }
